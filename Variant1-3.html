@@ -1,0 +1,66 @@
+<html>
+   <head>
+	 <script src="jquery-3.4.1.min.js">
+	 </script>
+	 <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#div5[align|='right'").animate({
+                    left: '-100px'
+                });
+                $("#div9[align|='right'").animate({
+                    left: '-100px'
+                });
+            });
+            $("#div2").click(function() {
+                $('#div2').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div4").click(function() {
+                $('#div4').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div6").click(function() {
+                $('#div6').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div8").click(function() {
+                $('#div8').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+            $("#div10").click(function() {
+                $('#div10').delay(100).animate({
+                    marginTop: +30
+                }, 0);
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p>При нажатии на кнопку положение для 3-го и 5-го абзацев будет меняться:
+    </p>
+    <button>Нажмите на кнопку</button> <br><br>
+
+    <div align="right" id="div1" style="width:500px;height:20px;position:absolute;">Нажмите на картинку, чтобы сдвинуть вниз</div><br>
+    <div id="div2" style="position:absolute;vertical-align: middle;"><img src="pictures/index1.jfif" width="100"></div><br><br><br>
+
+    <div align="right" id="div3" style="width:500px;height:20px;position:absolute;">Нажмите на картинку, чтобы сдвинуть вниз</div><br>
+    <div id="div4" style="position:absolute;"><img src="pictures/index2.jfif" width="100"></div><br><br><br>
+
+    <div align="right" id="div5" style="width:500px;height:20px;position:absolute;">Нажмите на картинку, чтобы сдвинуть вниз</div><br>
+    <div id="div6" style="position:absolute;"><img src="pictures/index3.jfif" width="100"></div><br><br><br>
+
+    <div align="right" id="div7" style="width:500px;height:20px;position:absolute;">Нажмите на картинку, чтобы сдвинуть вниз</div><br>
+    <div id="div8" style="position:absolute;"><img src="pictures/index4.jfif" width="100"></div><br><br><br>
+
+    <div align="right" id="div9" style="width:500px;height:20px;position:absolute;">Нажмите на картинку, чтобы сдвинуть вниз</div><br>
+    <div id="div10" style="position:absolute;"><img src="pictures/index5.jfif" width="100"></div>
+</body>
+
+</html>
